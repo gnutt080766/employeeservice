@@ -14,7 +14,7 @@ public class DbConnect
   }
  }
 
- public static DbConnect Init()
+ public static DbConnect Init(ILogger logger = null)
  {
   if(_dbConnect == null)
   {
