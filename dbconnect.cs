@@ -10,7 +10,7 @@ public class DbConnect
   }
   else
   {
-   throw new Exception("error: logger cannot be null");
+   _logger = new Logger();
   }
  }
 
