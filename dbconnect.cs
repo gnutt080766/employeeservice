@@ -22,4 +22,15 @@ public class DbConnect
   }
   return _dbConnect;
  }
+ 
+ public bool IsInitialized
+ {
+	 get
+	 {
+	 if(_dbConnect == null)
+		 return false;
+	 else
+		 return true;
+	}
+ }
 }
